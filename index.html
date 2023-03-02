@@ -1,0 +1,478 @@
+
+<html lang="en">
+
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175936017-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-175936017-1');
+</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Kursside: Anvendt Statisikk, NTNU Handelshøyskolen</title>
+        <meta name="viewport" content="width=device-width">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="index.html">Anvendt Statistikk</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gå til</a>
+      <div class="dropdown-menu" aria-labelledby="dropdown01">
+        <a class="dropdown-item" href="#kontakt">kontakt</a>
+        <a class="dropdown-item" href="#intro">om kurset</a>
+        <a class="dropdown-item" href="#kursplan">kursplan</a>
+        <a class="dropdown-item" href="#pensum">pensum</a>
+        <a class="dropdown-item" href="#oppgaver">oppgaver</a>
+        <a class="dropdown-item" href="#kilder">kilder</a>
+      </div>
+    </li>
+  </ul>
+
+  </div>
+  </nav>
+
+  <main role="main" class="container">
+
+<div class="text-center">
+  <div class="container py-5 my-3 bg-light text-black">
+    <h1>Anvendt Statistikk (MET 2010)</h1>
+    <h2>Høsten 2022</h2>
+    <h2>NTNU Handelshøyskolen</h2>
+    <h3>Johannes Mauritzen</h3>
+    <img src="cover2020.png" alt="" class="img-fluid">
+  </div>
+</div>
+
+<div class ="container py-5 my-3 bg-light text-black" id = "kontakt">
+<h2>Kontakt</h2>
+
+<p>Beste måten å ta kontakt med meg er via mail:</p>
+<p>johannes.mauritzen@ntnu.no</p>
+<p>Jeg prøver å svare på mail innen en arbeidsdag (24 timer)</p>
+<p>For teknisk eller faglig hjelp, så er det best å komme til klassetimene (se under.)</p>
+
+</div>
+
+<div class="container py-5 my-3 bg-light text-black" id="intro">
+<h3>Om kurset</h3>
+
+<p>Dette kurset handler om hvordan å gjennomføre en fullstendig data-analyse med moderne verktøy og metoder. Statistiske modeller, metoder og tester er viktige komponenter i dette kurset, men kurset gir også en innføring i data-håndtering, visualisering og deskriptiv-analyse.
+</p>
+
+<p>Dette er et <em>gjøre-kurs</em> . Filosofien er at den beste måten å lære data-analyse på er å egentlig gjøre data-analyse. Fra første uke kommer du til å jobbe med data og data-håndtering. Vurderingen i dette kurset er også basert på innlevering av en prosjektoppgave.</p>
+
+<h4>Python og co.</h4>
+
+<p>I dette kurset bruker vi Python sammen med pakker for dataanalyse. Det er flere grunner for dette:</p>
+<ul>
+  <li>Python (sammen med R) er verktøyene som er mest brukt i næringslivet, særlig når det gjelder maskinlæring.</li>
+  <li>Mange andre kurs i maskinlæring, business analytics og statistikk ved NTNU og andre universiteter tar i bruk Python.</li>
+  <li>Python og data-analyse pakkene er open-source, transperant, og har et stort nettverk med utviklere og brukere.</li>
+  <li>Det er lett å finne hjelp når man har problemer.</li>
+  <li>Som NTNU bachelorstudent, har du allerede eksponering til programmering i Python.</li>
+</ul>
+
+<h4>Kurset er vanskelig og verdiful</h4>
+
+<p>Kurset er vanskelig og du kommer til å oppleve frustrasjon og forvirring. Det er vanlig.</p>
+
+<p>Men hvis du gjør en innsats, kommer du til å få mye ut av dette kurset. Du kommer ikke til å lære alt om statistikk og data-analyse i dette kurset. Men du kommer til å få verktøyene du trenger til å lære selv nesten hvilken som helst metode eller teknikk.</p>
+
+
+<h3>Opplegget</h3>
+
+
+<h4>Labber</h4>
+<p>Kurset er bygget opp rundt 14 "labber". Du burde jobbe gjennom labbene - det vil si prøve å replikkere arbeidet i labbene -- i grupper. Det er øvelser i slutten av hver labb og du burde prøve å gjøre alle øvelsene. Labbene er skrevet på engelsk. Jeg jobber gjennom semesteret med å ferdiggjøre labbene, men du kan gå ut i fra at labbene er ferdig til den uken som er indikert i kursplanen (under).</p>
+
+<h4>Hjelpesesjoner</h4>
+<p>Det vil ikke være tradisjonelle forelesninger i dette kurset. Det meste av informasjonen du trenger er i labbene og pensum.</p>
+
+<p>Vi bruker heller klassetiden som hjelpesesjoner. Her skal jeg være tilgjengelig for å svare på spørsmål og hjelpe med utfordringer. Det kan være lurt å lese pensum og begynne å jobbe gjennom labbene hjemme, mens man bruker klassetiden til å jobbe med øvelser.</p>
+
+<h4>Innleveringer</h4>
+<p>Det er fire obligatoriske innleveringer som du må bestå for å kunne levere inn prosjektoppgaven. Du kan jobbe i grupper med opptil 3. Disse består av oppgaver fra labbene (se under for detaljer).</p>
+
+<h4>Vurdering</h4>
+<p>Vurdering i kurset er basert på en individuell prosjektoppgave. Se detaljer under.</p>
+
+</div>
+
+<div class="container py-5 my-3 bg-light text-black" id="feedback">
+
+<h2>Feedback</h2>
+
+  <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=cgahCS-CZ0SluluzdZZ8BUF9L_n4WkdLjJXXeidUBn9UODlSQ1RKSlZTQVVVVlhSWlc3NkUxRkpQNi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+</div>
+
+<div class="container py-5 my-3 bg-light text-black" id="pensum">
+<ul>
+<h3>Pensum:</h3>
+
+<p>Det er deler av tre bøker som er pensum for dette kurset. Bøkene er tilgjengelig gratis digitalt for personlig bruk. Det er mulig å også kjøpe papir utgave (amazon, etc.) Jeg anbefaler også to andre bøker.</p>
+
+
+<ul>
+  <li>Vanderplas. <a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook (2016). [PDS]</a></li>
+  <li>Gelman, Hill and  Vehtari. <a href="https://avehtari.github.io/ROS-Examples/">Regression and Other Stories [ROS]</a></li>
+  <li>Hyndman and Athanasopoulos. <a href="https://otexts.com/fpp3/">Forecasting: Principles and Practice (3rd ed.) [FPP3]</a> </li>
+  <li>Valgfritt: Downey. <a href="https://greenteapress.com/wp/think-stats-2e/">Think Stats</a> </li>
+  <li>Anbefalt: Spiegelhalter. The Art of Statistics.</li>
+</ul>
+
+</div>
+
+<div class="container" id="kursplan">
+
+  <ul>
+    <h3>Kursplan</a></h3>
+    <li> <h3>Sted: A31 GL-EG "Rustbygget"</h3> </li>
+    <li> <h3></h3> </li>
+  </ul>
+
+  <ul>
+    <table class="table table-striped">
+    <thread>
+    <tr>
+      <th scope="col">Uke</th>
+      <th score="col">Thema</th>
+      <th scope="col">Lab</th>
+      <th scope="col">Sol. Sketch</th>
+      <th scope="col">Pensum</th>
+      <th scope="col">Hjelpesesjon</th>
+    </tr>
+  </thread>
+
+    <tr id ="dag1">
+      <td>Uke 34</td>
+      <td> Introduksjon, Python og Numpy</td>
+      <td>
+        <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/prelab.ipynb">Prelab </a>
+       <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/lab1.ipynb">Lab 1</a>
+       <td> <a href="https://nbviewer.org/urls/jmaurit.github.io/anv_statistikk/lab1_fasit.ipynb">Sketch, lab 1</a> </td>
+      <td>PDS Ch 1, 2</td>
+      <td>22.08, 1115-1300</td>
+    </tr>
+
+    <tr id = "dag2">
+      <td>Uke 35</td>
+      <td>Datahåndtering med Pandas</td>
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/lab2.ipynb">Lab 2</a> </td>
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab2.ipynb">Sketch, lab 2</a> </td>
+      <td>PDS Ch 3</td>
+      <td>29.08, 1115-1300</td>
+    </tr>
+
+    <tr id = "dag3">
+      <td>Uke 36</td>
+      <td>Håndtering av større data: Split-Apply-Combine og Merge</td>
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/lab3.ipynb">Lab 3</a> </td>
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab3.ipynb">Sketch, lab 3</a> </td>
+      <td>PDS Ch 3</td>
+      <td>05.09, 1115-1300</td>
+    </tr>
+
+    <tr id = "dag4">
+      <td>Uke 37</td>
+      <td>Visualisering og transformasjon</td>
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/lab4.ipynb">Lab 4</a> </td>
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab4.ipynb">Sketch, lab 4</a> </td>
+      <td>ROS Ch 2, PDS Ch 4</td>
+      <td>12.09, 1115-1300</td>
+    </tr>
+
+    <tr>
+      <td>Uke 38</td>
+      <td>Sansynlighet og simulasjon</td>
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/lab5.ipynb">Lab 5</a> </td>
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab5.ipynb">Sketch, lab 5</a> </td>
+      <td>ROS Ch 3, Ch 4</td>
+      <td>19.09, 1115-1300</td>
+    </tr>
+
+    <tr>
+      <td>Uke 39</td>
+      <td>Inferens og simulasjon</td>
+      <td><a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/Lab6.ipynb">Lab 6</a></td>
+      <!-- https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab6.ipynb -->
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab6.ipynb">Sketch, lab 6</a> </td>
+      <td>ROS ch 5</td>
+      <td>26.09, 1115-1300</td>
+    </tr>
+
+    <tr>
+      <td>Uke 40</td>
+      <td>Enkelregresjon</td>
+      <td><a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/lab7.ipynb">Lab 7</a></td>
+      <!-- https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab7.ipynb -->
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab7.ipynb">Sketch, lab 7</a> </td>
+      <td>ROS 6-8</td>
+      <td>03.10, 1115-1300</td>
+    </tr>
+
+    <tr>
+      <td>Uke 41</td>
+      <td>Multippelregresjon</td>
+      <td><a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/lab8.ipynb">Lab 8</a></td>
+      <!-- https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab8.ipynb -->
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab8.ipynb">Sketch, Lab 8</a> </td>
+      <td>ROS 10, ROS 12.1-12.4</td>
+      <td>10.10, 1115-1300</td>
+    </tr>
+
+    <tr>
+      <td>Uke 42</td>
+      <td>Modell evaluering og diagnostikk</td>
+      <td><a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/lab9.ipynb">Lab 9</a></td>
+      <!-- https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab9.ipynb -->
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab9.ipynb">Sketch, Lab 9</a> </td>
+      <td>ROS 11</td>
+      <td>17.10, 1115-1300</td>
+    </tr>
+
+     <tr>
+      <td>Uke 43</td>
+      <td>GLM og logistisk regresjon</td>
+      <td><a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/lab10.ipynb">Lab 10</a></td>
+      <!-- https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab10.ipynb -->
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab10.ipynb">Sketch, lab 10</a> </td>
+      <td>ROS 13-14</td>
+      <td>24.10, 1115-1300</td>
+    </tr>
+
+    <tr>
+      <td>Uke 44</td>
+      <td>Bayesiansk teori og estimering</td>
+      <td><a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/lab11.ipynb">Lab 11</a></td>
+      <!-- https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab11.ipynb -->
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab11.ipynb">Sketch, lab 11</a> </td>
+      <td>ROS 9</td>
+      <td>31.10, 1115-1300</td>
+    </tr>
+
+    <tr>
+      <td>Uke 45</td>
+      <td>Identifikasjon og kausal modellering</td>
+      <td><a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/lab12.ipynb">Lab 12</a></td>
+      <!-- https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab12.ipynb -->
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab12.ipynb">Sketch, lab 12</a> </td>
+      <td>ROS 19-21</td>
+      <td>07.11.2022, 1115-1300</td>
+    </tr>
+
+    <tr>
+      <td>Uke 46</td>
+      <td>Tidsrekke statistikk og prognose</td>
+      <td><a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/lab13.ipynb">Lab 13</a></td>
+      <!-- https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab13.ipynb -->
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab13.ipynb">Sketch, lab 13</a> </td>
+      <td><a href="https://otexts.com/fpp3/arima.html"> FPP3 Ch. 9</a></td>
+      <td>14.11, 1115-1300</td>
+    </tr>
+
+    <tr>
+      <td>Uke 47</td>
+      <td>Tidsrekke statistikk og prognose</td>
+      <td><a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/lab14.ipynb">Lab 14</a></td>
+      <!-- https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab14.ipynb -->
+      <td> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fasit_lab14.ipynb">Sketch, lab 14</a> </td>
+      <td> <a href="https://otexts.com/fpp3/arima.html">FPP3 Ch. 9</a> </td>
+      <td>21.11, 1115-1300</td>
+    </tr>
+
+    <tr>
+      <td>Uke 49</td>
+      <td>Frist: Valgfritt prosjektoppgave-innlevering for tilbakemelding</td>
+      <td>innlevering via blackboard</td>
+      <td></td>
+      <td> </td>
+      <td>5.12, kl. 12</td>
+    </tr>
+
+  </table>
+    </ul>
+</div>
+
+<div class="container py-5 my-3 bg-light text-black" id="howto">
+
+<h3>How-to notes</h3>
+
+<p>Her er noen kortere notebooks som går gjennom noen vanlige oppgaver.</p>
+
+<li> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/ReshapingData.ipynb">Reshaping data</a> </li>
+<li> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/SSB_data.ipynb">Using ready-made data sets from Statistics Norway (SSB)</a> </li>
+<li> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/fakeDataAndMonteCarlo.ipynb">Fake data simulation.</a> </li>
+ <li> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/workingWithDates.ipynb">Working with dates in Pandas</a> </li>
+<li> <a href="https://nbviewer.org/url/jmaurit.github.io/anv_statistikk/creatingMap.ipynb">Creating a map using geopandas</a> </li>
+</div>
+
+<div class="container py-5 my-3 bg-light text-black" id="innlevering">
+<h3>Obligatoriske innleveringer</h3>
+<ul>
+  <li>Innlevering via Blackboard.</li>
+  <li>I form av en Jupyter notebook</li>
+  <li>Levert som <b>en</b> jupyter notebook fil (.ipynb) eller pdf</li>
+  <li>Vis alt arbeid/kode</li>
+  <li>Kommentere resultatene.</li>
+</ul>
+<ol>
+  <li>Første innlevering</li>
+  <ul>
+    <li>Frist: Mandag 19. September</li>
+    <li>Oppgaver ("Assignments") 2 og 3 fra lab 1 </li>
+    <li>Oppgaver 2 og 3 fra lab 2</li>
+    <li>Oppgave 3 fra lab 3</li>
+    <li>Oppgave 3 fra lab 4</li>
+  </ul>
+  <li>Andre innlevering</li>
+  <ul>
+    <li>Frist: Mandag 17. Oktober</li>
+    <li>Oppgave 4 fra lab 5</li>
+    <li>Oppgave 4 fra lab 6</li>
+    <li>Oppgave 5 fra lab 7</li>
+    <li>Oppgave 2 fra lab 8</li>
+  </ul>
+  <li>Tredje innlevering</li>
+    <ul>
+    <li>Frist: Mandag 14. November</li>
+    <li>Oppgave 4 fra lab 9</li>
+    <li>Oppgave 2 fra lab 10</li>
+    <li>Oppgave 3 fra lab 11</li>
+    <li>Oppgave 3 fra lab 12</li>
+    </ul>
+  <li>Fjerde innlevering</li>
+    <ul>
+    <li>Frist: Mandag 28. November</li>
+    <li>Oppgave 2 fra lab 14</li>
+    </ul>
+</ol>
+
+<p>Jeg vil først og fremst se at man har gjort en reell innsats på innleveringene. Hvis man har gjort det, så er det lite sannsynlig at man ikke får det godkjent. Men hvis man ikke skulle få det godkjent, så vil det også være mulig å levere inn igjen.</p>
+
+</div>
+
+<div class="container py-5 my-3 bg-light text-black" id="eksamen">
+
+<h3>Prosjektoppgave</h3>
+
+<h4>Frist: 22. desember, 1200</h4>
+
+<h5>Leveres som PDF av en Jupyter Notebook i inspira</h5>
+<p>(I Jupyter Notebook kan du velge *Download As* og deretter velge *PDF via Latex*. Hvis det ikke fungerer prøv heller å laste ned som *HTML*,åpne med en nettleser, og deretter print til PDF.)</p>
+
+<p>Kurset avsluttes med en prosjektoppgave.</p>
+<ul>
+  <li> I oppgaven har du total frihet i å velge tema og data selv (du kan se listen over datakilder under hvis du trenger inspirasjon). </li>
+  <li> Du kan skrive oppgaven på et skandinavisk språk eller på engelsk.</li>
+  <li> Oppgaven skal være selvstendig, men du kan spørre andre studenter etter råd og hjelp.</li>
+  <li> Oppgaven leveres i form av en PDF av en Jupyter Notebook.</li>
+  <li>Du kan og burde begynne med oppgaven så tidlig som mulig (Hint: flere av oppgavene i labbene er "åpne", hvor du kan velge egen data.)</li>
+  <li>En god plass å begynne er datakildene som jeg har listet under (ikke alle linker er oppdatert). Du er ikke begrenset til en datasett, men man burde prøve å holde seg til en tema, bredt definert.</li>
+  <li>Det er ingen streng lengdekrav, men oppgaven burde vanligvis være mellom 2.000-4.000 ord (ikke inkludert kode).</li>
+  <li>Oppgaven skal være en miks av en tradisjonell oppgave og en labb-rapport:</li>
+  <ul>
+    <li>Du skal ha en velskrevet introduksjon som motiverer tema, gir litt bakgrunn og beskriver dataen.</li>
+    <li>Du burde inkludere kode (or forklaring av kode når det er aktuelt) for behandling av data, visualisering, modellering, modell evaluering og diagnostikk, osv.</li>
+    <li>Du trenger ikke seksjoner for metode og teori, men du burde diskutere metode og teori.</li>
+    <li>Du burde beskrive og tolke dine resultater.</li>
+    <li>Du burde ha en konkluderene seksjon der du diskuterer dine resultater, implikasjoner,</li>
+  </ul>
+  <li>Alle oppgaver burde ha følgende elementer:</li>
+  <ol>
+    <li>Datahåndtering og transformasjon (lab 1-4)</li>
+    <li>En utforskende og beskrivende analyse i form av visualisering og eventuelt tabeller. (lab 4 og videre)</li>
+    <li>Enkel regresjon og tilsvarende visualisering/simulasjon av usikkerhet. (lab 7)</li>
+    <li>Multippelregresjon (kan gjøres i form av punkt 8 under) (lab 8)</li>
+    <li>"Fake" data simulasjon (lab 6-9)</li>
+    <li>Diagnostikk og modellevaluering (lab 9)</li>
+    <li>Diskusjon om identifikasjon og kausalitet (lab 12). Eventuelt (valgfritt) bruk av metode for identifikasjon:</li>
+    <ul>
+      <li>Regression discontinuity</li>
+      <li>Matching</li>
+      <li>Difference-in-difference</li>
+      <li>Instrumental variables</li>
+    </ul>
+    <li>I tillegg, må du anvende minst en av de følgende metodene</li>
+      <ul>
+        <li>GLM/Logistisk-regresjon (lab 10)</li>
+        <li>Bayesiansk-analyse/Decision analysis (lab 11)</li>
+        <li>Tidsrekke-regresjon (lab 13-14)</li>
+      </ul>
+      <li>Du står også fritt å ta i bruk metoder som ikke er i labbene.</li>
+  </ol>
+  <li>Hvis du vil ha en ide om hvordan en oppgave burde se ut som, er labbene kanskje beste kilde.</li>
+  <li>Kravene til prosjektoppgaven er ikke det samme som i en vanlig oppgave - bacheloroppgave, for eksempel. Elementer som en veldefinert problemstilling og teori er ikke så viktig. Man skal heller tenke på prosjektoppgaven som komplimentær til en vanlig oppgave. Den skal vise mye av analysen som ikke kommer i en endelig bachelor- eller masteroppgave: en deskriptiv analyse og ulike test-regresjoner som man sammenligner.</li>
+  <li>Alle har anledning til å levere inn en utkast for tilbakemelding (se kursplan for frist.)  Utkasten, i form av en jupyter notebook (.ipynb) leveres gjennom blackboard. Tilbakemeldingen blir hovedsakelig av struktur og modellvalg. Tilbakemeldingen er ikke en antydning av karakter, verken implisitt eller eksplisitt.</li>
+  <li>Bortsett fra skriftlig tilbakemelding på utkast, så er perioden mellom siste uken av forelesning og oppgaveinnleveringen eksamensperioden. Spørsmål til meg via mail og på campus burde begrenses til uklarheter om oppgaven.</li>
+
+</ul>
+
+<h4>Om vurderingen</h4>
+
+<p>Det er mye mer læring i å gjøre en prosjektoppgave sammenlignet med å sitte for eksamen. Det er derfor vi har prosjektoppgave i dette kurset. Vurderingen blir derimot noe diffus. I dette kurset bruker jeg en velkvalifisert ekstern-sensur som vil vurdere oppgavene på en rimelig og fornuftig måte. Men det er vanskelig å si noe om akkurat hvor karaktergrensene ligger i forkant.  Mitt beste råd: Skriv en oppgave som du selv synes er interessante og som du er stolt av. Dette vil vanligvis føre til en grei karakter.</p>
+
+<p>Jeg kan generelt sett ikke si noe i forkant om hva man må gjøre for å oppnå en viss karakter. Men for å sette riktige forventninger, i følge NTNUs   <a href="https://i.ntnu.no/wiki/-/wiki/English/Grading+scale">retningslinjer</a>  er en A-karakter reservert for eksepsjonelle oppgaver. Du kan ha en veldig bra oppgave uten at noe nødvendigvis er feil og fortsatt ikke få en A. </p>
+
+
+</div>
+
+<div class="container py-5 my-3 bg-light text-black" id="kilder">
+
+  <h3>Datakilder</h3>
+
+  <ul>
+    <li> <a href="http://jmaurit.github.io/data_resources.html">Her</a> er en side med datakilder som jeg har samlet over tid. Jeg gir ingen garanti at linkene er oppdatert. Dette kan være en god plass å starte.</li>
+    <li>Du har tilgang til flere store databaser via biblioteket. For finansielle data, kan man søke i Eikon, for eksempel. Ta kontakt med biblioteket for mer info.</li>
+    <li>Jeg oppfordrer deg også å prøve å finne dine egne datakilder og datasett - det finnes uendelige mange kilder på nett.</li>
+  </ul>
+
+
+
+<h3>Kilder for å lære mer Python og R</h3>
+<ul>
+<li> <a href="http://jmaurit.github.io/python_resources.html">Her</a> har jeg samlet en liste over kilder til å lære mer om programmering i Python.</li>
+<li> <a href="http://jmaurit.github.io/r_resources.html">Her</a> har jeg samlet en liste over kilder til å lære mer om programmering i r </li>
+
+<li> <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/">MIT Open: Introduction to computer science and programming in python.</a> </li>
+<li> <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/">MIT Open: Intro to programming and data science with python</a> </li>
+</ul>
+
+<h3>Kilder til å lære mer statistikk og sanynslighetsteori</h3>
+<ul>
+  <li> <a href="http://jmaurit.github.io/bayesian_resources.html">Her</a> har jeg samlet en liste over kilder til å lære mer om Bayesiansk statistikk.</li>
+  <li> <a href="http://jmaurit.github.io/stat_resources.html">Her</a> har jeg samlet en liste over kilder til å lære mer om Statistikk. </li>
+  <li> <a href="https://github.com/rmcelreath/statrethinking_winter2019"> Richard McElreath course in Bayesian Analysis</a> </li>
+  <li> <a href="https://avehtari.github.io/BDA_course_Aalto/index.html">Aki Vehtari course in Bayesian Analysis</a> </li>
+</ul>
+
+
+
+<p></p>
+
+</div>
+
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>

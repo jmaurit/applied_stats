@@ -1,0 +1,39 @@
+Do a short lab on the log transform
+
+Pandas data reader https://pandas-datareader.readthedocs.io/en/latest/remote_data.html
+
+Be explicit about that they need to find some cross section data rather than Time series for the project
+
+Decision analysis problem from Allen Downey Think Bayes
+
+
+For 26. sept:
+
+- local disk
+- converting to numeric
+
+- Create FAQ page
+
+Income distribution
+https://www.ft.com/content/ef265420-45e8-497b-b308-c951baa68945
+https://openstax.org/details/books/introductory-statistics
+
+Frequentist vs. Bayesian
+
+https://python.quantecon.org/prob_meaning.html
+
+Business Statistics
+
+https://openstax.org/details/books/introductory-business-statistics
+
+Keller: Statistics for Management and Economics, 11. utgave
+
+Python for data Science
+
+https://jakevdp.github.io/PythonDataScienceHandbook/
+
+Colab
+
+Time series in python
+
+https://www.kaggle.com/prashant111/complete-guide-on-time-series-analysis-in-python
